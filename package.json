@@ -5,7 +5,7 @@
   "private": true,
   "author": "Matthieu Dumas",
   "license": "MIT",
-  "homepage": ".",
+  "homepage": "https://arfonzeras.github.io/FractalJS",
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@reduxjs/toolkit": "^1.3.0",
@@ -21,19 +21,25 @@
     "@types/react-redux": "^7.1.7",
     "hammerjs": "^2.0.8",
     "lodash": "^4.17.19",
-    "node-sass": "^4.13.1",
+    "node-sass": "npm:sass@^1.77.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-github-btn": "^1.1.1",
     "react-redux": "^7.2.0",
     "react-scripts": "3.4.1",
+    "sass": "^1.77.0",
     "source-map-explorer": "^2.4.2",
     "typescript": "^3.7.5"
   },
+  "overrides": {
+    "node-sass": "npm:sass@^1.77.0"
+  },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider SKIP_PREFLIGHT_CHECK=true react-app-rewired start",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider SKIP_PREFLIGHT_CHECK=true react-app-rewired build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject"
   },
@@ -54,9 +60,9 @@
     ]
   },
   "devDependencies": {
-    "fibers": "^4.0.2",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.1.1",
     "react-app-rewired": "^2.1.5",
-    "sass": "^1.26.3",
     "worker-loader": "^2.0.0"
   }
 }

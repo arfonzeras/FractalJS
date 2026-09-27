@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/FractalJS/static/css/main.363de011.chunk.css",
+    "main.js": "/FractalJS/static/js/main.663549b1.chunk.js",
+    "main.js.map": "/FractalJS/static/js/main.663549b1.chunk.js.map",
+    "runtime-main.js": "/FractalJS/static/js/runtime-main.c0d100b0.js",
+    "runtime-main.js.map": "/FractalJS/static/js/runtime-main.c0d100b0.js.map",
+    "static/js/2.847a9a2f.chunk.js": "/FractalJS/static/js/2.847a9a2f.chunk.js",
+    "static/js/2.847a9a2f.chunk.js.map": "/FractalJS/static/js/2.847a9a2f.chunk.js.map",
+    "91d28b160c78cbf228ea.worker.js": "/FractalJS/91d28b160c78cbf228ea.worker.js",
+    "91d28b160c78cbf228ea.worker.js.map": "/FractalJS/91d28b160c78cbf228ea.worker.js.map",
+    "index.html": "/FractalJS/index.html",
+    "precache-manifest.c76a355164f2b5ed91b15ab47b0840d8.js": "/FractalJS/precache-manifest.c76a355164f2b5ed91b15ab47b0840d8.js",
+    "service-worker.js": "/FractalJS/service-worker.js",
+    "static/css/main.363de011.chunk.css.map": "/FractalJS/static/css/main.363de011.chunk.css.map",
+    "static/js/2.847a9a2f.chunk.js.LICENSE.txt": "/FractalJS/static/js/2.847a9a2f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0d100b0.js",
+    "static/js/2.847a9a2f.chunk.js",
+    "static/css/main.363de011.chunk.css",
+    "static/js/main.663549b1.chunk.js"
+  ]
+}
